@@ -38,7 +38,7 @@ O resultado do "require 'watir'" deve ser true, quando tem algum problema, mostr
 
 **Uma curiosidade do Framework do Watir que ele é um framework criado em cima do selenium-webdriver, ou seja o core dele é o Selenium, o framework trás diversas melhorias que vamos falar mais a frente.**
 
-Referências:
-https://rubygems.org/gems/watir
-http://www.rubydoc.info/gems/watir/
+Referências:<br>
+https://rubygems.org/gems/watir<br>
+http://www.rubydoc.info/gems/watir/<br>
 http://watir.com/watir-6-8/
