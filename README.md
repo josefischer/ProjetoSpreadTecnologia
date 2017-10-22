@@ -1,2 +1,2 @@
 # ProjetoSpreadTecnologia
-Um projeto inicial utilizando o watir com alguns exemplos, contribuição da Spread Tecnologia.
+Um projeto para ensinar as pessoas a automatizar utilizando o watir framework com alguns exemplos práticos, contribuição da Spread Tecnologia para a comunidade de testadores.
