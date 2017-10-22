@@ -35,6 +35,6 @@ Agora você só precisa dar o "require 'watir'" no console do irb, sem as aspas 
 O resultado do "require 'watir'" deve ser true, quando tem algum problema, mostra uma pilha de erro.
 
 
-**RubyGems.org** é o serviço de hospedagem de gems da comunidade Ruby. Quando entramos no site pesquisamos a gem do Watir, temos um breve resumo sobre a biblioteca e tem a lista de versões, e o mais importante as dependências da biblioteca, sem a dependência instalada a biblioteca ou gem não roda corretamente, no caso do Watir temos a dependência do selenium-webdriver que tem ser superior a versão 3.4.
+**RubyGems.org** é o serviço de hospedagem de gems da comunidade Ruby. Quando entramos no site pesquisamos a gem do Watir, temos um breve resumo sobre a biblioteca e tem a lista de versões, nesse momento a versão mais atual é a 6.8.4, e o mais importante as dependências da biblioteca, sem a dependência instalada a biblioteca ou gem não roda corretamente, no caso do Watir temos a dependência do selenium-webdriver que tem ser superior a versão 3.4.
 
 https://rubygems.org/gems/watir
