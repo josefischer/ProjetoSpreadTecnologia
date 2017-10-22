@@ -2,7 +2,7 @@ Depois de instalar o Ruby, vamos instalar o Watir Framework que é um dos framew
 
 A primeira coisa que devemos fazer para instala o watir é abrir o prompt/console do windows/linux.
 
-Prompt de Comando (cmd.exe) é um interpretador de linha de comando do sistema operacional do Windows (XP até o mais recente Windows 10). É similar ao shell do linux, mas no linux os comandos interpretados podem mudar, no caso do ruby os comando não mudam são os mesmos para windows e linux.
+Prompt de Comando (cmd.exe) é um interpretador de linha de comando do sistema operacional do Windows (XP até o mais recente Windows 10). É similar ao shell/terminal do linux, mas no linux os comandos interpretados podem mudar, no caso do ruby os comando não mudam são os mesmos para windows e linux/MAC.
 
 A partir da linha de comando, instale a gem/gema, que é o código fonte do framework empacotado em Ruby, mais chamada de biblioteca em outras linguagens de programação:<br>
 ```prompt
