@@ -37,4 +37,6 @@ O resultado do "require 'watir'" deve ser true, quando tem algum problema, mostr
 
 **RubyGems.org** é o serviço de hospedagem de gems da comunidade Ruby. Quando entramos no site pesquisamos a gem do Watir, temos um breve resumo sobre a biblioteca e tem a lista de versões, nesse momento a versão mais atual é a 6.8.4, e o mais importante as dependências da biblioteca, sem a dependência instalada a biblioteca ou gem não roda corretamente, no caso do Watir temos a dependência do selenium-webdriver que tem ser superior a versão 3.4.
 
+**Uma curiosidade do Framework do Watir que ele é um framework criado em cima do selenium-webdriver, ou seja o core dele é o Selenium, o framework trás diversas melhorias que vamos falar mais a frente.**
+
 https://rubygems.org/gems/watir
