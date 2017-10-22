@@ -1,4 +1,4 @@
-Depois de instalar o Ruby, instalar e usar o Watir é muito fácil.
+Depois de instalar o Ruby, instalar e usar o Watir Framework que é um dos frameworks mais usados para automação de testes de UI (Interface Gráfica). Usamos o Watir para Automatizar os nossos testes de Regressão em aplicações Web.
 
 A partir da linha de comando, instale a gem/gema, que é o código fonte do framework empacotado em Ruby, mais chamada de biblioteca em outras linguagens de programação:<br>
 ```prompt
@@ -34,9 +34,9 @@ Agora você só precisa dar o "require 'watir'" no console do irb, sem as aspas 
 
 O resultado do "require 'watir'" deve ser true, quando tem algum problema, mostra uma pilha de erro. Para sair do console digitamos o comando **Exit**
 
-**RubyGems.org** é o serviço de hospedagem de gems da comunidade Ruby. Quando entramos no site pesquisamos a gem do Watir, temos um breve resumo sobre a biblioteca e tem a lista de versões, nesse momento a versão mais atual é a 6.8.4, e o mais importante as dependências da biblioteca, sem a dependência instalada a biblioteca ou gem não roda corretamente, no caso do Watir temos a dependência do selenium-webdriver que tem ser superior a versão 3.4.
+**RubyGems.org** é o serviço de hospedagem de gems da comunidade Ruby. Quando entramos no site pesquisamos a gem do Watir, temos um breve resumo sobre a biblioteca e tem a lista de versões, nesse momento a versão mais atual é a 6.8.4, e o mais importante são com relação as dependências da biblioteca, sem as dependências instalada a biblioteca/gem não roda corretamente, no caso do Watir temos a dependência do selenium-webdriver que tem ser superior a versão 3.4, caso não seja atendida pode ocorrer vários problemas.
 
-**Uma curiosidade do Framework do Watir que ele é um framework criado em cima do selenium-webdriver, ou seja o core dele é o Selenium, o framework trás diversas melhorias que vamos falar mais a frente.**
+**Uma curiosidade do Framework do Watir que ele é um framework criado em cima do selenium-webdriver, ou seja o core dele é o framework do Selenium WebDriver, o framework trás diversas melhorias que vamos falar mais a frente.**
 
 Referências:<br>
 https://rubygems.org/gems/watir<br>
