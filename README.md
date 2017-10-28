@@ -5,3 +5,6 @@ O primeiro passo para se automatizar utilizando o watir framework é instalar as
 ![01 - Instalando o Ruby](https://github.com/reinaldorossetti/ProjetoSpreadTecnologia/blob/master/01-Instalando_o_Ruby.md)<br>
 ![02 - Instalando o DevKit](https://github.com/reinaldorossetti/ProjetoSpreadTecnologia/blob/master/02-Instalando_o_Ruby_Parte_2.md)<br>
 ![03 - Instalando o Watir](https://github.com/reinaldorossetti/ProjetoSpreadTecnologia/blob/master/03-Instalando_o_Watir.md)
+![04 - instalando as IDEs](https://github.com/reinaldorossetti/ProjetoSpreadTecnologia/blob/master/04-Instalando_as_IDEs.MD)
+![05 - Instalando a gem pry para debugging](https://github.com/reinaldorossetti/ProjetoSpreadTecnologia/blob/master/05-pry-byebug.MD)
+![06 - Básico de Ruby](https://github.com/reinaldorossetti/ProjetoSpreadTecnologia/blob/master/06-Basico_de_Ruby_para_automacao.MD)
