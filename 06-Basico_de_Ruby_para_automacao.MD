@@ -96,7 +96,17 @@ case
   when x == 4 then  puts "valor incorreto!" # Quando x for igual a 5, faça imprimir os valores.
   when x >= 5, x < 10 then puts "O valor esperado está correto!" # Quando x for maior e igual a 5 e menor que 10, faça imprimir os valores.
   else # nenhum dos resultados encontrados, vai ativar a condição else. 
-    "Nenhum dos resultados"
+    puts "Nenhum dos resultados"
+end
+```
+Outra forma de usar o case somente com condições de igualdade entre as condições, somente variando os valores, ainda é mais simples que acima, nesse caso não é preciso declarar a variável x = 15, dentro do case você coloca o valor.
+```ruby
+case 15
+  when 1 then puts "valor incorreto!"
+  when 4 then  puts "valor 4 incorreto!"
+  when 5, 10 then puts "O valor esperado está correto!"
+  else
+    puts "Nenhum dos resultados"
 end
 ```
 **Abaixo segue uma lista com os operadores aritméticos utilizados em Python:**
