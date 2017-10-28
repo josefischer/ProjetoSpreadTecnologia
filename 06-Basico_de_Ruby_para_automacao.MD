@@ -43,6 +43,12 @@ end
 nome_da_funcao("Valor: ") # fiz a chamada da minha função, nessa linha.
 
 ```
+Resultado:
+```ruby:
+Valor: 2
+Valor: 2Valor: 2
+
+```
 <br><br>
 
 2. No rubymo devemos importar um biblioteca, é regra básica importar as bibliotecas no inicio do seu código. A importação deve ser separada por linhas.
