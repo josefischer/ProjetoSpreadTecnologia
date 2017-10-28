@@ -10,15 +10,39 @@ Um comentário simples em uma linha usamos o jogo da velho/cerquilha #
 
 def nome_da_funcao(string, incrementa=1)
   incrementa += 1
-  print(string + incrementa.to_s) # A função to_s convert o valor numerico para string/texto.
+  print(string + incrementa.to_s) 
 end
 
 # finalizou_a_funcao_e_voltei_pro_inicio
 nome_da_funcao("Valor: ") # fiz a chamada da minha função, nessa linha.
 
 ```
-O **print** no meu código é a função que vai imprimir o valor no console ou shell/cmd/prompt.
-O **def** é uma definição que aqui vai estar uma função que pode ser retornada ou passada (def vem de function definition).
+O **print** no meu código é a função que vai imprimir o valor no console ou shell/cmd/prompt, a função print é diferente das outras linguagens pois se colocar o print em baixo ela vai concatenar o resultado de cima com o de baixo. 
+O comando mais usual no ruby é o puts ao invés do print, pois na função puts ela não concatena os valores em sequência, no final ela encerra com um enter "\n".<br>
+
+O **def** é uma definição que aqui vai estar uma função que pode ser retornada ou passada (def vem de function definition).<br>
+
+O **to_s** A função to_s convert o valor numerico para string/texto.<br>
+
+O **+** O simbolo de + concatena os dois valores para exibir no console.<br>
+
+```ruby
+=begin
+Pra fazer um comentário grande usamos no inicio do "=begin" e no final do comentário usamos o "=end", sem as aspas duplas.
+Um comentário simples em uma linha usamos o jogo da velho/cerquilha #
+=end
+
+def nome_da_funcao(string, incrementa=1)
+  incrementa += 1
+  puts(string + incrementa.to_s )
+  print(string + incrementa.to_s)
+  print(string + incrementa.to_s  + "\n")
+end
+
+# finalizou_a_funcao_e_voltei_pro_inicio
+nome_da_funcao("Valor: ") # fiz a chamada da minha função, nessa linha.
+
+```
 <br><br>
 
 2. No rubymo devemos importar um biblioteca, é regra básica importar as bibliotecas no inicio do seu código. A importação deve ser separada por linhas.
