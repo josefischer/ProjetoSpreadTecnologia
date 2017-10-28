@@ -125,9 +125,9 @@ end
 ```ruby
 >   # maior
 
-=   # maior ou igual
+>=   # maior e igual
 
-<=  # menor ou igual
+<=  # menor e igual
 
 ==  # igual
 
@@ -137,7 +137,7 @@ if not, unless, if !variavel # Operador lógico que representa a negação (inve
 # Ou seja somente executa se o resultado for false. O uso do simbolo de afirmação "!" para ter a condição negativa é a mais comum,
 # no ruby, eu prefiro o uso do not ou == false, acho mais claro de se entender.
 
-and # Operador lógico onde a resposta da operação é verdade se ambas as variáveis de entrada forem verdade.
+and # Operador lógico onde a resposta da operação é verdade se ambas as variáveis de entrada forem verdadeiras.
 
 or ou ||  # Operador lógico onde a resposta da operação é verdade se e somente se pelo menos uma das variáveis de entrada for verdade.
 ```
