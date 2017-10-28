@@ -24,7 +24,7 @@ O **def** é uma definição que aqui vai estar uma função que pode ser retorn
 
 O **to_s** A função to_s convert o valor numerico para string/texto.<br>
 
-O **+** O simbolo de + concatena os dois valores para exibir no console.<br>
+O simbolo de **+**  concatena os dois valores para exibir no console.<br>
 
 ```ruby
 =begin
