@@ -87,6 +87,18 @@ end
 
 Tome muito cuidado quando for criar condições somente use quando for preciso, o excesso de condições pode deixar o código lento.
 
+Uma forma mais reduzida de construir uma lista de condições é o uso do **case**
+```ruby
+x = 4
+
+case
+  when x < 1 then puts "valor incorreto!" # Quando x for menor que um, faça imprimir os valores.
+  when x == 4 then  puts "valor incorreto!" # Quando x for igual a 5, faça imprimir os valores.
+  when x >= 5, x < 10 then puts "O valor esperado está correto!" # Quando x for maior e igual a 5 e menor que 10, faça imprimir os valores.
+  else # nenhum dos resultados encontrados, vai ativar a condição else. 
+    "Nenhum dos resultados"
+end
+```
 **Abaixo segue uma lista com os operadores aritméticos utilizados em Python:**
 
 ```ruby
