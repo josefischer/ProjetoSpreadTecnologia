@@ -17,8 +17,8 @@ end
 nome_da_funcao("Valor: ") # fiz a chamada da minha função, nessa linha.
 
 ```
-O **print** no meu código é a função que vai imprimir o valor no console ou shell/cmd/prompt, a função print é diferente das outras linguagens pois se colocar o print em baixo ela vai concatenar o resultado de cima com o de baixo. 
-O comando mais usual no ruby é o puts ao invés do print, pois na função puts ela não concatena os valores em sequência, no final ela encerra com um enter "\n".<br>
+O **print** no meu código é a função que vai imprimir o valor no console ou shell/cmd/prompt, a função print é diferente das outras linguagens, pois se colocar o print em baixo ela vai concatenar o resultado de cima com o de baixo. Como no exemplo abaixo.
+O comando mais usual no ruby é o **puts** ao invés do print, pois na função puts ela não concatena os valores em sequência, no final ela encerra com um enter "\n".<br>
 
 O **def** é uma definição que aqui vai estar uma função que pode ser retornada ou passada (def vem de function definition).<br>
 
