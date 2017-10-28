@@ -36,7 +36,7 @@ require_relative 'subfolder/meu_arquivo'
 ```
 
 <br><br>
-3. Como trabalhar com condições em python, ou seja if e else.
+3. Como trabalhar com condições em ruby, ou seja if, elsif e else.
 
 ```ruby
 
