@@ -2,21 +2,20 @@ Nesse tutorial vamos falar o básico de Ruby.
 
 
 1. O padrão de espaçamento entre a funçao deve ser igual a 4 espaços dentro da função, função é nada menos que um bloco de código com uma funcionalidade específica, exemplo:
-```python
+```ruby
 =begin
-Pra fazer um comentário grande usamos...
+Pra fazer um comentário grande usamos no inicio do "=begin" e no final do comentário usamos o "=end", sem as aspas duplas.
 Um comentário simples em uma linha usamos o jogo da velho/cerquilha #
 =end
 
-x = 0 # inicio do meu codigo, criei uma variavel que recebe o valor 0.
-
-def nome_da_funcao(string)
-    incrementa += 1
-    print(string+valor.to_s) A função to_s convert o valor numerico para string/texto.
+def nome_da_funcao(string, incrementa=1)
+  incrementa += 1
+  print(string + incrementa.to_s) # A função to_s convert o valor numerico para string/texto.
 end
 
 # finalizou_a_funcao_e_voltei_pro_inicio
 nome_da_funcao("Valor: ") # fiz a chamada da minha função, nessa linha.
+
 ```
 O **print** no meu código é a função que vai imprimir o valor no console ou shell/cmd/prompt.
 O **def** é uma definição que aqui vai estar uma função que pode ser retornada ou passada (def vem de function definition).
