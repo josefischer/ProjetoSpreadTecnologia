@@ -11,8 +11,7 @@ Um comentário simples em uma linha usamos o jogo da velho/cerquilha #
 x = 0 # inicio do meu codigo, criei uma variavel que recebe o valor 0.
 
 def nome_da_funcao(string)
-    deve_ter_4_espacos_aqui += 1
-    valor = deve_ter_4_espacos_aqui
+    incrementa += 1
     print(string+valor.to_s) A função to_s convert o valor numerico para string/texto.
 end
 
