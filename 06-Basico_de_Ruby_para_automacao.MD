@@ -128,7 +128,7 @@ end
 <=  # menor ou igual
 ==  # igual
 !=  # diferente
-not # Operador lógico que representa a negação (inverso) da variável atual. Se ela for verdade, torna-se falsa, e vice-versa.
+if not, unless # Operador lógico que representa a negação (inverso) da variável atual. Se ela for verdade, torna-se falsa, e vice-versa.
 and # Operador lógico onde a resposta da operação é verdade se ambas as variáveis de entrada forem verdade.
-or  # Operador lógico onde a resposta da operação é verdade se e somente se pelo menos uma das variáveis de entrada for verdade.
+or ou ||  # Operador lógico onde a resposta da operação é verdade se e somente se pelo menos uma das variáveis de entrada for verdade.
 ```
