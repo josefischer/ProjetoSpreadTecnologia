@@ -4,7 +4,8 @@ Nesse tutorial vamos falar o básico de Ruby.
 1. O padrão de espaçamento entre a funçao deve ser igual a 4 espaços dentro da função, função é nada menos que um bloco de código com uma funcionalidade específica, exemplo:
 ```ruby
 =begin
-Pra fazer um comentário grande usamos no inicio do "=begin" e no final do comentário usamos o "=end", sem as aspas duplas.
+Pra fazer um comentário grande usamos no inicio do "=begin" e no final do comentário usamos o "=end", 
+sem as aspas duplas.
 Um comentário simples em uma linha usamos o jogo da velho/cerquilha #
 =end
 
