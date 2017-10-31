@@ -10,3 +10,6 @@ O primeiro passo para se automatizar utilizando o watir framework é instalar as
 
 Depois de instalar as ferramentas, vamos falar sobre o básico de ruby para a automação de testes.<br>
 ![06 - Básico de Ruby](https://github.com/reinaldorossetti/ProjetoSpreadTecnologia/blob/master/06-Basico_de_Ruby_para_automacao.MD)<br>
+
+Depois de instalar as ferramentas, vamos falar sobre o básico de ruby para a automação de testes.<br>
+![07 - Falando sobre o Watir](https://github.com/reinaldorossetti/ProjetoSpreadTecnologia/blob/master/10-Falando_sobre_o_watir_framework.MD)<br>
