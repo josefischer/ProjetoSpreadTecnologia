@@ -24,7 +24,7 @@ O comando mais usual no ruby é o **puts** ao invés do print, pois na função 
 
 O **def** é uma definição que aqui vai estar uma função que pode ser retornada ou passada (def vem de function definition).<br>
 
-O **to_s** A função to_s convert o valor numerico para string/texto.<br>
+O **to_s** A função to_s convert o valor numerico para string/texto, para concatenar dois valores ele precisa ser do mesmo tipo, string+string, no caso acima ele é string+number o que vai gerar um error, se o valor numerico não for convertido para string.<br>
 
 O simbolo de **+**  concatena os dois valores para exibir no console.<br>
 
