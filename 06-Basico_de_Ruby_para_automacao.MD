@@ -53,7 +53,7 @@ Valor: 2Valor: 2
 ```
 <br><br>
 
-2. No rubymo devemos importar um biblioteca, é regra básica importar as bibliotecas no inicio do seu código. A importação deve ser separada por linhas.
+2. No ruby devemos importar um biblioteca, é regra básica importar as bibliotecas no inicio do seu código. A importação deve ser separada por linhas.
 
 Fazer assim
 ```ruby
