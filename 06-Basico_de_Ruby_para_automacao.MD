@@ -143,8 +143,8 @@ and # Operador lógico onde a resposta da operação é verdade se ambas as vari
 or ou ||  # Operador lógico onde a resposta da operação é verdade se e somente se pelo menos uma das variáveis de entrada for verdade.
 ```
 
-No Ruby tudo é objeto, ou seja uma variável é um objeto e pertence a uma determinada classe:
-Através do método "class" podemos ver a classe que ela pertence e que tipo ela é:
+No Ruby tudo é objeto, ou seja uma variável é um objeto e pertence a uma determinada classe:<br>
+Através do método "class" podemos ver a classe que ela pertence e que tipo ela é:<br>
 ```ruby
 puts 5.class
 puts 3.14.class
