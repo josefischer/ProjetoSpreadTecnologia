@@ -156,3 +156,17 @@ Fixnum
 Float
 String
 ```
+
+Podemos compara o tipo de método que uma determinada variável é, através do método ".is_a?(Tipo)".
+```ruby
+puts 5.is_a?(Array)
+puts 3.14.is_a?(Array)
+puts "teste".is_a?(String)
+```
+
+Resultado:
+```
+False
+False
+True
+```
