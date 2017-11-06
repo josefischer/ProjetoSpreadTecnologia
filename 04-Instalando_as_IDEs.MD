@@ -14,5 +14,5 @@ Chrome Driver:
 
 https://sites.google.com/a/chromium.org/chromedriver/downloads
 
-![Drivers](https://github.com/SPREADTECNOLOGIALTDA/ProjetoSpreadTecnologia/blob/master/imgs/drivers.PNG)<br>
+![Drivers](https://github.com/reinaldorossetti/ProjetoSpreadTecnologia/blob/master/imgs/drivers.PNG)<br>
 Como mostra a imagem os drivers devem estar dentro da pasta /bin dentro do RubyXX.
