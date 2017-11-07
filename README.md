@@ -17,4 +17,4 @@ Depois de estudar o básico de Ruby, vamos falar sobre o básico de Watir para a
 ![08 - Falando sobre o Watir](https://github.com/reinaldorossetti/ProjetoSpreadTecnologia/blob/master/10-Falando_sobre_o_watir_framework.MD)<br>
 
 Exemplo de um projeto modelo, simples somente pra entender a estrutura básica usando o Cucumber.<br>
-![08 - Modelo de projeto com Watir e Cucumber](https://github.com/reinaldorossetti/ProjetoSpreadTecnologia/tree/master/ProjetoModeloWatir)<br>
+![09 - Modelo de projeto com Watir e Cucumber](https://github.com/reinaldorossetti/ProjetoSpreadTecnologia/tree/master/ProjetoModeloWatir)<br>
