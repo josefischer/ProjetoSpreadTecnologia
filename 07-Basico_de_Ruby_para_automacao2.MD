@@ -10,7 +10,7 @@ puts array[1] # Valor impresso two, do tipo String.
 puts array[2] # Valor impresso 3.0, do tipo Float.
 ```
 No Ruby temos um método pra acessar o primeiro elemento do array e o ultimo, com as funções **"first"** e **"last"**:
-```
+```ruby
 array.first #=> 1
 array.last  #=> 3.0
 ```
@@ -18,6 +18,6 @@ Para inserir um valor no nosso Array, usamos o método **"push"**
 array.push("Passou")
 
 ** Quando ele insere o valor vai para o final do nosso array.
-```
+```ruby
 p array # Resultado => [1, "two", 3.0, "Passou"]
 ```
