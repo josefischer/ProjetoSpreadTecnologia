@@ -45,7 +45,7 @@ array = [2, 5, 6, 556, 6, 6, 8, 9, 0, 123, 556] # contem valores repetidos.
 array.uniq # Resultado => [2, 5, 6, 556, 8, 9, 0, 123]
 ```
 
-Em outras liguagens usamos o for para iteragir em um array/lista de objetos, o método mais usado em ruby é o **"each"**, o código fica entre do/end ou entre colchetes {}, como nos exemplos abaixo:
+Em outras liguagens usamos o for para interagir em um array/lista de objetos, no ruby também podemos usar o for, mas o método mais usado em ruby é o **"each"**, o código fica entre do/end ou entre colchetes {}, como nos exemplos abaixo:
 ```ruby
 array = [1, 2, 3, 4, 5]
 array.each { |a| print a -= 10 } # em uma linha.
@@ -81,10 +81,14 @@ Um uso legal do map em testes é quando você tem um coleção de elemento e que
 elems = driver.elements(tag_name: 'p')
 p elems.map(&:text) # traz todos os textos dos elementos, ele auto realiza o loop e traz um array da propriedade texto dos elementos.
 ```
-É bem comum o método **"include?"** para verificar se no meu array existe um determinado valor que desejo. Outro método muito usado é o **"length"** ou **"count"** pra verficar o tamanho do meu array.
+É bem comum o método **"include?"** para verificar se no meu array existe um determinado valor que desejo. Outro método muito usado é o **"length"** ou **"count"** pra verficar o tamanho do meu array. Para verificar o maior valor temos o método **"max"**.
 ```
-array = [1, 2, 3, 4, 5]
+array = [1, 2, 3, 4, 6]
 p array.include?(5) # Resultado => true
 p array.length # Resultado => 5
 p array.count # Resultado => 5
+p array.max # Resultado => 6
 ```
+
+Referência:<br>
+https://ruby-doc.org/core-2.3.0/Array.html
