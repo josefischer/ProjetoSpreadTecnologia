@@ -86,4 +86,5 @@ p elems.map(&:text) # traz todos os textos dos elementos, ele auto realiza o loo
 array = [1, 2, 3, 4, 5]
 p array.include?(5) # Resultado => true
 p array.length # Resultado => 5
+p array.count # Resultado => 5
 ```
