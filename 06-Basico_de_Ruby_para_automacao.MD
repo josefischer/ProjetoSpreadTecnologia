@@ -110,7 +110,7 @@ case 15
     puts "Nenhum dos resultados"
 end
 ```
-**Abaixo segue uma lista com os operadores aritméticos utilizados em Python:**
+**Abaixo segue uma lista com os operadores aritméticos utilizados em Ruby:**
 
 ```ruby
 +   # soma
