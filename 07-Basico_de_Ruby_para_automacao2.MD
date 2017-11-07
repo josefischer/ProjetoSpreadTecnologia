@@ -35,6 +35,6 @@ array.delete_at(2) # Deleta o elemento que tem o index 2, ou seja o 3.0
 p array # Resultado => [1, "two"]
 
 array = [1, "two", 3.0, "two"]
-array.deletet("two") # Deleta o elemento que contém o valor "two", ou seja que contém o index 1 e 3.
+array.delete("two") # Deleta o elemento que contém o valor "two", ou seja que contém o index 1 e 3.
 p array # Resultado => [1, 3]
 ```
