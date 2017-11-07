@@ -38,3 +38,4 @@ array = [1, "two", 3.0, "two"]
 array.delete("two") # Deleta o elemento que contém o valor "two", ou seja que contém o index 1 e 3.
 p array # Resultado => [1, 3]
 ```
+
