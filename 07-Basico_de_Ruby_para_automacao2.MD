@@ -10,6 +10,7 @@ puts array[2] # Valor impresso 3.0, do tipo Float.
 ```
 No Ruby temos um método pra acessar o primeiro elemento do array e o ultimo, com as funções **"first"** e **"last"**:
 ```ruby
+array = [1, "two", 3.0]
 array.first #=> 1
 array.last  #=> 3.0
 ```
@@ -27,7 +28,7 @@ array.insert(3, 'orange', 'pear', 'grapefruit') # => [0, 1, 2, "orange", "pear",
 ```
 ** No exemplo acima ele insere o valores apartir do 4 elemento, o primeiro elemento é o **0** e o ultimo elemento **-1**.   
 
-Para deletar um elemento especifico por index usamos o "delete_at" e pra deletar um determinado conteúdo usamos o **"delete¨**.
+Para deletar um elemento especifico por index usamos o **"delete_at"** e pra deletar um determinado conteúdo usamos o **"delete¨**.
 ```ruby
 array = [1, "two", 3.0]
 array.delete_at(2) # Deleta o elemento que tem o index 2, ou seja o 3.0
