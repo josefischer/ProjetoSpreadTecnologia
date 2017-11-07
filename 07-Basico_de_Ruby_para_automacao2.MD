@@ -51,7 +51,8 @@ array = [1, 2, 3, 4, 5]
 array.each { |a| print a -= 10 } # em uma linha.
 
 # Imprime: -9 -8 -7 -6 -5
-# -= é um auto-incremento negativo, o elemento vai ser iteragido em todos os valores do array, incrementando o valor -10
+# -= é um auto-incremento negativo, o elemento vai ser interagido em todos os valores do array,
+$ incrementando o valor -10
 # 1 - 10 = -9
 # 2 - 10 = -8
 # 3 - 10 = -7
