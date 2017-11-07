@@ -81,3 +81,9 @@ Um uso legal do map em testes é quando você tem um coleção de elemento e que
 elems = driver.elements(tag_name: 'p')
 p elems.map(&:text) # traz todos os textos dos elementos, ele auto realiza o loop e traz um array da propriedade texto dos elementos.
 ```
+É bem comum o método **"include?"** para verificar se no meu array existe um determinado valor que desejo. Outro método muito usado é o **"length"** ou **"count"** pra verficar o tamanho do meu array.
+```
+array = [1, 2, 3, 4, 5]
+p array.include?(5) # Resultado => true
+p array.length # Resultado => 5
+```
