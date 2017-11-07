@@ -75,4 +75,9 @@ end
 
 p array
 p new_array
-```ruby
+```
+Um uso legal do map em testes é quando você tem um coleção de elemento e que trazer uma propriedade desses elementos, como no exemplo abaixo.
+```
+elems = driver.elements(tag_name: 'p')
+p elems.map(&:text) # traz todos os textos dos elementos, ele auto realiza o loop e traz um array da propriedade texto dos elementos.
+```
