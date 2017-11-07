@@ -14,7 +14,7 @@ Depois de instalar as ferramentas, vamos falar sobre o básico de ruby para a Au
 Agora vamos falar sobre Array em Ruby.<br>
 ![07 - Básico de Ruby](https://github.com/reinaldorossetti/ProjetoSpreadTecnologia/blob/master/07-Basico_de_Ruby_para_automacao2.MD)<br>
 
-Depois de estudar o básico de Ruby, vamos falar sobre o básico de Watir para a automação de testes.<br>
+Depois de estudar o básico de Ruby, vamos falar sobre o básico de Watir para a Automação de Testes.<br>
 ![08 - Falando sobre o Watir](https://github.com/reinaldorossetti/ProjetoSpreadTecnologia/blob/master/10-Falando_sobre_o_watir_framework.MD)<br>
 
 Exemplo de um projeto modelo, simples somente pra entender a estrutura básica usando o Cucumber.<br>
