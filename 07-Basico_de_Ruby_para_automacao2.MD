@@ -66,7 +66,7 @@ end
 
 # prints: -9 -8 -7 -6 -5
 ```
-Você pode usa a função map ou collect, para alterar e o valor do array criando um novo Array.
+Você pode usa a função map ou collect, para alterar o valor do array criando um novo Array.
 ```ruby
 array = [1, 2, 3, 4, 5]
 new_array = array.map do |a|
