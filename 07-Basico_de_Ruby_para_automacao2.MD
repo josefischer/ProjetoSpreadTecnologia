@@ -39,3 +39,40 @@ array.delete("two") # Deleta o elemento que contém o valor "two", ou seja que c
 p array # Resultado => [1, 3]
 ```
 
+Para trazer todos os elementos sem serem repetidos usamos o método **"uniq"**
+```
+array = [2, 5, 6, 556, 6, 6, 8, 9, 0, 123, 556] # contem valores repetidos.
+array.uniq # Resultado => [2, 5, 6, 556, 8, 9, 0, 123]
+```
+
+Em outras liguagens usamos o for para iteragir em um array/lista de objetos, o método mais usado em ruby é o **"each"**, o código fica entre do/end ou entre colchetes {}, como nos exemplos abaixo:
+```ruby
+array = [1, 2, 3, 4, 5]
+array.each { |a| print a -= 10 } # em uma linha.
+
+# Imprime: -9 -8 -7 -6 -5
+# -= é um auto-incremento negativo, o elemento vai ser iteragido em todos os valores do array, incrementando o valor -10
+# 1 - 10 = -9
+# 2 - 10 = -8
+# 3 - 10 = -7
+# 4 - 10 = -6
+# 5 - 10 = -5
+
+# em baixo temos o mesmo loop sobre o array, mas usando o do pra inicio do bloco e end para finalizar o bloco de código dento do each método.
+array = [1, 2, 3, 4, 5]
+array.each do |a|
+  print a -= 10,
+end 
+
+# prints: -9 -8 -7 -6 -5
+```
+Você pode usa a função map ou collect, para alterar e o valor do array criando um novo Array.
+```ruby
+array = [1, 2, 3, 4, 5]
+new_array = array.map do |a|
+  a -= 10 
+end 
+
+p array
+p new_array
+```ruby
