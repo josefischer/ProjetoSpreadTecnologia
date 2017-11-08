@@ -91,5 +91,16 @@ p array.count # Resultado => 5
 p array.max # Resultado => 6
 ```
 
+Podemos instalar a documentação do ruby localmente através da biblioteca rdoc-data
+```
+gem install rdoc-data
+```
+```
+rdoc-data --install
+```
+No console do windows/shell do linux, enviamos o comando ri em seguida o object que desejamos:
+![Ruby doc](https://github.com/reinaldorossetti/ProjetoModeloWatir/blob/master/imgs/ri.PNG)<br>
+ri Array
+
 Referência:<br>
 https://ruby-doc.org/core-2.3.0/Array.html
