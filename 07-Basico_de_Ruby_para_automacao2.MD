@@ -99,7 +99,7 @@ gem install rdoc-data
 rdoc-data --install
 ```
 No console do windows/shell do linux, enviamos o comando ri em seguida o object que desejamos:
-![Ruby doc](https://github.com/reinaldorossetti/ProjetoModeloWatir/blob/master/imgs/ri.PNG)<br>
+![Ruby doc](https://github.com/reinaldorossetti/ProjetoModeloWatir/blob/master/imgs/ri_array.PNG)<br>
 ri Array
 
 Referência:<br>
