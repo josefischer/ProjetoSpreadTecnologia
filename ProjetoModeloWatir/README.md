@@ -75,7 +75,7 @@ Então "isso deve ocorrer".<br>
 
 **Deve ser usado sem as aspas duplas no código fonte.
 
-### Language: pt-br <é usado par que a linguagem gherkin identifique o idioma português, usado no top da .feature >
+### Language: pt-br <é usado par que a linguagem gherkin identifique o idioma português, usado no topo da .feature >
 
 No nosso projeto temos somente um arquivo ".feature", o cucumber vai somente ler esses arquivos *.feature para executar os testes, para enviar o comando do cucumber você de está no diretório acima da /feature, somente dando o comando "cucumber" vai executar todas as features criadas. No entando como boa prática executar por tags, uma tag nada menos que uma referência a feature ou ao cenário realizado, para criarmos uma tag utilizamos o @NOME_DA_TAG_SEM_ESPACOS_E_CARACTERES_ESPECIAIS , antes da palavra "Funcionalidade" e "Cenario". 
 
