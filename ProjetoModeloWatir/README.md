@@ -17,7 +17,7 @@ Gems necessário para rodar os testes, elas estão referenciadas dentro do arqui
 ```ruby
 source 'https://rubygems.org'
 gem 'watir'
-gem 'cucumber', -v 2.4.0 
+gem 'cucumber', '2.4.0' 
 gem 'rspec'
 gem 'rspec-expectations'
 gem "tapestry"
@@ -50,7 +50,7 @@ Funcionalidade: Formulario
       | language | Ruby                                          |
       | question | A programming language                        |
       | versions | 1.8.6                                         |
-    E Selecionar a opcao "Enviar"
+    Quando Selecionar a opcao "Enviar"
     Então Deve informar uma mensagem de sucesso "Thank you for playing with Watir-WebDriver".
 
   @CT002-form_fill-version
@@ -61,9 +61,21 @@ Funcionalidade: Formulario
       | language | Python     |
       | question | A gem      |
       | versions | 1.9.2      |
-    E Selecionar a opcao "Enviar"
+    Quando Selecionar a opcao "Enviar"
     Então Deve informar uma mensagem de sucesso "Thank you for playing with Watir-WebDriver".
 ```
+
+Cenário: <onde e feita a descrição do teste><br>
+
+Dado "um estado conhecido". <br>
+
+Quando "um determinado evento ocorre".<br>
+
+Então "isso deve ocorrer".<br>
+
+**Deve ser usado sem as aspas duplas no código fonte.
+
+### Language: pt-br <é usado par que a linguagem gherkin identifique o idioma português, usado no top da .feature >
 
 No nosso projeto temos somente um arquivo ".feature", o cucumber vai somente ler esses arquivos *.feature para executar os testes, para enviar o comando do cucumber você de está no diretório acima da /feature, somente dando o comando "cucumber" vai executar todas as features criadas. No entando como boa prática executar por tags, uma tag nada menos que uma referência a feature ou ao cenário realizado, para criarmos uma tag utilizamos o @NOME_DA_TAG_SEM_ESPACOS_E_CARACTERES_ESPECIAIS , antes da palavra "Funcionalidade" e "Cenario". 
 
