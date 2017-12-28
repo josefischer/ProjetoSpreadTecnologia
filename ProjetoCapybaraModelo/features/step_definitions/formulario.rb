@@ -13,7 +13,7 @@ Dado(/^preencher os campos do formulario\.$/) do |table|
   @pb.obter_evidencia
 end
 
-Dado(/^Selecionar a opcao "([^"]*)"$/) do |arg1|
+Quando(/^Selecionar a opcao "([^"]*)"$/) do |arg1|
   click_button arg1
 end
 
