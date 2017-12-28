@@ -12,7 +12,7 @@ Funcionalidade: Formulario
       | language | Ruby                                          |
       | question | A programming language                        |
       | versions | 1.8.6                                         |
-    E Selecionar a opcao "Enviar"
+    Quando Selecionar a opcao "Enviar"
     Então Deve informar uma mensagem de sucesso "Thank you for playing with Watir-WebDriver".
 
 
@@ -24,6 +24,5 @@ Funcionalidade: Formulario
       | language | Python     |
       | question | A gem      |
       | versions | 1.9.2      |
-    E Selecionar a opcao "Enviar"
+    Quando Selecionar a opcao "Enviar"
     Então Deve informar uma mensagem de sucesso "Thank you for playing with Watir-WebDriver".
-
