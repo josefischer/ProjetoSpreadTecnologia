@@ -19,3 +19,6 @@ Depois de estudar o básico de Ruby, vamos falar sobre o básico de Watir para a
 
 Exemplo de um projeto modelo, simples somente pra entender a estrutura básica usando o Cucumber.<br>
 ![09 - Modelo de projeto com Watir e Cucumber](https://github.com/reinaldorossetti/ProjetoSpreadTecnologia/tree/master/ProjetoModeloWatir)<br>
+
+Depois de estudar o básico de Ruby, vamos falar sobre o básico de Watir para a Automação de Testes.<br>
+![10 - Falando sobre o Capybara](https://github.com/reinaldorossetti/capybara_tips/blob/master/Capybara_comandos.md)<br>
