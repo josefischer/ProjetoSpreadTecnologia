@@ -47,6 +47,7 @@ end
 # end
 
 Capybara.configure do |config|
+  config.use_implicit_waits = true
   config.app_host = 'http://bit.ly/watir-webdriver-demo'
   config.javascript_driver = :webkit
   config.default_driver = :selenium
