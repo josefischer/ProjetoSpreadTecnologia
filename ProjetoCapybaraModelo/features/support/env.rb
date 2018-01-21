@@ -47,11 +47,14 @@ end
 # end
 
 Capybara.configure do |config|
-  config.use_implicit_waits = true
   config.app_host = 'http://bit.ly/watir-webdriver-demo'
   config.javascript_driver = :webkit
   config.default_driver = :selenium
   config.default_max_wait_time = 120
+end
+
+SitePrism.configure do |config|
+  config.use_implicit_waits = true
 end
 
 RSpec.configure do |config|
