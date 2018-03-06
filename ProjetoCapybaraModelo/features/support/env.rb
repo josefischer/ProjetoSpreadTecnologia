@@ -34,18 +34,6 @@ Capybara.register_driver :selenium do |app|
   end
 end
 
-# module WaitForAjax
-#   def wait_for_ajax
-#     Timeout.timeout(Capybara.default_max_wait_time) do
-#       loop until finished_all_ajax_requests?
-#     end
-#   end
-
-#   def finished_all_ajax_requests?
-#     page.evaluate_script('jQuery.active').zero?
-#   end
-# end
-
 Capybara.configure do |config|
   config.app_host = 'http://bit.ly/watir-webdriver-demo'
   config.javascript_driver = :webkit
